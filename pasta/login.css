@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.login-cotainer {
+    background-color: white;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ffcc5c;
+}
+
+button {
+    padding: 10px;
+    background-color: #ff6b6b;
+    color:white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049
+}
+
+#titulo {
+    color: black;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+    font-size: 40px;
+    padding-left: 40px;
+    text-shadow: 3px 3px 5px rgba(04, 0, 01, 0.7);
+    
+}
+
+form {
+    margin-left: 60px;
+
+}
+
+input{
+    font-size: 15px;
+    margin-left: 50px;
+    width: 160px;
+    height: 30px;
+}
+
+
+.marca-dagua {
+    margin-left: 50px;
+    margin-top: 25px;
+}
+

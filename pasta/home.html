@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agendador de Compromissos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h2 id="title"><b>Agenda</b></h2>
+        <form id="appointment-form">
+            <input type="date" id="date" required>
+            <input type="time" id="time" required>
+            <input type="text" id="description" placeholder="Descrição" required>
+            <button type="submit">Agendar</button>
+        </form>
+        <h3 id="subtitulo">Compromissos</h3>
+        <ul id="appointment-list"></ul>
+        <style>
+            body {
+                background-image: url(./assets/pagina-do-calendario-lancando-folha-na-mesa-de-madeira-plano-de-fundo-agenda-de-negocios-planejamento-compromisso-reuniao-conceito_293060-4788.avif);
+                background-size: cover;
+            }
+        </style>
+    </div>
+
+</body>
+<script src="index.js"></script>
+
+</html>
